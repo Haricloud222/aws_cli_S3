@@ -1,4 +1,6 @@
- 1  clear
+ Ubuntu AWS CLI Installation
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
     2  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
     3  unzip awscliv2.zip
     4  sudo ./aws/install
@@ -11,3 +13,12 @@
    11  aws configure
    12  ls
    13  aws s3 cp awscliv2.zip s3://hari5432gg/
+
+Use the following command to copy an object from Ec2 Instance to S3
+
+aws s3 cp filename with extension s3://bucketurl/
+
+if you want to copy it inside the bucket folder use the following command
+
+aws s3 cp filename with extension s3://bucketurl/folder name/
+
