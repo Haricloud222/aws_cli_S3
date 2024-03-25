@@ -1,0 +1,13 @@
+ 1  clear
+    2  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+    3  unzip awscliv2.zip
+    4  sudo ./aws/install
+    5  apt install unzip
+    6  unzip awscliv2.zip
+    7  sudo ./aws/install
+    8  ls
+    9  ll
+   10  aws --version
+   11  aws configure
+   12  ls
+   13  aws s3 cp awscliv2.zip s3://hari5432gg/
